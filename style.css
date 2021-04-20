@@ -1,0 +1,124 @@
+
+nav ul li {
+    display: inline;
+    
+}
+ul> li> a{
+    margin: 27px;
+    text-decoration: none;
+    color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid lightgrey;
+    border-radius: 17px;
+    padding: 11px;
+
+}
+ul> li>a:hover{
+    color: black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border: 3px solid black;
+     font-size: large;
+}
+body {
+    background-color:rgba(245, 243, 243, 0.918) ;
+    font-family:monospace
+}
+
+header {
+    text-align: center;
+}
+h1 {
+    font-style: normal;
+    font-size: 75px;
+    text-align: center;
+    background-color: lightgray;
+    border-style: double;
+}
+h2{
+    font-style: normal;
+    font-size: 25px;
+    text-align: center;
+    border-style: groove;
+}
+
+div {
+    width: 500px;
+}
+.fotos{
+
+    height: 270px;
+    width: 200px;
+}
+/* .botones a {
+   color: lightgrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid lightgrey;
+    border-radius: 17px;
+    padding: 11px;
+
+}
+
+.botones a:hover {
+    color: black;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border: 3px solid black;
+     font-size: large;
+ } */
+.sticky{
+    margin: 15px;
+    border: 3px solid #0c0c0b;
+    top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 21px;
+    background-color: rgb(173, 165, 180);
+    z-index: 100;
+}
+
+.aboutme{
+text-align: center;
+}
+
+.yo{
+    margin: auto;
+    display: block
+}
+.trabajo{
+    text-align: center;
+}
+.imagenestrabajo{
+    margin: 75px;
+    padding: 50px;
+}
+.intereses{
+    text-align: center;
+}
+.contenedorimagenes{ 
+    margin-bottom: 100px ;
+}
+.contacto {
+    text-align: center;
+    background-color: rgb(173, 165, 180);
+}
+
+figure{
+    display:inline-block;
+    vertical-align: middle;
+}
+figcaption{
+    width:200px;
+    height:20px;
+}
+.imagenesfondo{
+    margin-right: 5px;
+    height: 25px;
+    width: 27px;
+}
+.portada{
+    background: rgb(136,134,134);
+    background: linear-gradient(185deg, rgba(136,134,134,1) 0%, rgba(205,202,202,1) 40%, rgba(251,250,250,1) 100%);
+}
+.margenhola{
+    margin-left: 600px;
+}
